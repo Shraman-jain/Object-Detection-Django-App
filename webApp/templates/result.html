@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Result page </title>
+</head>
+<body>
+<h1>Result page </h1>
+{% for r,p in res%}
+    This is a {{r}} with confidence of {{p}}%<br/>
+{% endfor %}
+<a href="http://127.0.0.1:8000/imageupload">Back</a>
+
+</body>
+</html>
